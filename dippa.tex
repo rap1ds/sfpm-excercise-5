@@ -1,50 +1,51 @@
-%
-% This is a Dippa editor document template. The template suits best for academic papers
-% written in Finnish.
-%
-
-% Add a document type 'article' that suits for academic papers
 \documentclass[a4paper]{article}
 
-% Encoding that fits to Finnish language
+% Encoodaus, joka sopii suomenkielellä (esim. ä ja ö)
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-% Hyphenation for Finnish
+% Suomenkielinen tavutus
 \usepackage[finnish]{babel}
 
-% References.
-% NOTICE: References are currently not supported by Dippa Editor
+% Viitteet
 \usepackage{natbib}
 
+% Otsikkojen päätteetön fontti
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\large}
+
+% Viitteiden merkit
 \bibpunct{(}{)}{;}{a}{,}{,}
 
-% Begin the document
 \begin{document}
 
-% Document title
-\title{\huge Title \\ \large Subtitle}
-\date{1.1.2012}
-\author{Author name \\ author@email.fi}
+\title{\small T-76.5612 Software Project Management \\ Exercise 5, Pre-Lecture \\ \huge Ihmisten johtaminen}
+\date{20.2.2012}
+\author{Mikko Koski \\ mikko.koski@aalto.fi \\ 66467F}
 \maketitle
 
-\large
+\normalsize
 
-% First section
-\section{Tämä on ensimmäinen iso otsikko, esim. Johdanto}
+\section{Johdanto}
 
-Tässä on johdantokappale
+\section{Projektitiimin jäsenten eri roolit}
 
-\section{Seuraava iso otsikko}
+% Discuss the differences between the following roles in software development projects: 
+% - project manager
+% - product owner
+% - scrum master
+% - agile coach
 
-Tässä on sisältöä seuraavan ison otsikon alla
+% What are the most important tasks of each of these roles? 
 
-\subsection{Alaotsikko}
+% How are these roles different? 
 
-Tässä on alaotsikko ja viittaus esimerkkidokumenttiin \citep{koski2012}
+% Discuss especially from the point of view on how these different roles are involved in leading and managing people.
 
-\bibliographystyle{plainnat}
-\bibliography{ref}
+\section{Ihmisten johtaminen IT-alalla}
 
-% End of the document
+% Discuss what can be difficult when managing/leading software developers and building software development teams. 
+
+% Feel free to add questions to our visiting lecturers regarding this topic in the end of your answer.
+
 \end{document}
