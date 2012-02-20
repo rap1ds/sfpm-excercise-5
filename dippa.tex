@@ -18,6 +18,17 @@
 \bibpunct{(}{)}{;}{a}{,}{,}
 
 \usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+ 
+\pagestyle{fancyplain}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+ 
+\lhead{\fancyplain{}{\thepage}}
+\chead{}
+\rhead{\fancyplain{}{\textit{\leftmark}}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
 
 \begin{document}
 
